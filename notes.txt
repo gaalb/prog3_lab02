@@ -1,0 +1,16 @@
+Osztályok:
+Játékos:
+    többféle (Kezdo, Robot)
+    lep()
+asztal.Asztal:
+    nyilvántartja a tétet, a játékosokat (0-10)
+    addJatekos()
+    ujJatek()
+    kor()
+    getKor()
+    emel()
+    getTet()
+
+Játékosok körönként "lépnek": passz, emel, stb.
+Az asztal a játék elején ment 1 random számot, ha a tét túllépi, vége.
+Amelyik játékosnál vége, nyer ha <10%al lépte túl, veszít ha többel. Mindenki más veszít.
